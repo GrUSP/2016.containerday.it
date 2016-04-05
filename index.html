@@ -20,11 +20,11 @@ location_city: Verona, Italia
 
 {% include section-newsletter.html %}
 {% include section-contents.html %}
-{% include section-workshop.html %}
 
 {% if page.cfp %} {% include section-cfp.html %} {% endif %}
 {% if page.tickets %} {% include section-tickets.html %} {% endif %}
 {% if page.speakers %} {% include section-speakers.html %} {% endif %}
+{% if page.workshop %} {% include section-workshop.html %} {% endif %}
 
 {% capture place %}{{'places/'}}{{page.where}}{{'.html'}}{% endcapture %}
 

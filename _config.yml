@@ -4,3 +4,4 @@ rdiscount:
   extensions: [smart]
 media_tags:
 conf_year: 2016
+highlighter: rouge
